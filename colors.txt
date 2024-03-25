@@ -1,0 +1,4 @@
+Nice colors:
+- Pearly white:		#D9DDDC & #E1E4E3 (a bit brighter)
+- Dark navy gray:	#0C1218
+- Deep indigo:		#060413 & #090713 (lighter and ashier)
