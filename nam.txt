@@ -1,0 +1,40 @@
+THE GOOD STUFF - NAM
+
+cat /dev/urandom | base64 | head -c 100 (first 100 randomised base64 chars) (./client 26455 "$(cat /dev/urandom | base64 | head -c 500)")
+~/./<filename>
+<command> ~/<file/dir>
+kill -l | list what's available
+cd $HOME/Library/Caches/vscode-cpptools/
+echo > <txt> /dev/ttys***
+ulimit -s | check stack size in kb
+uname -m | system arch
+lsblk | show info on all the block devices connected to your system
+cat /etc/os-release | show OS info
+which <filename> | show path
+type -a | show location
+
+LEAKS TOOL (man leaks):
+export MallocStackLogging=1
+leaks --atExit -- ./<program_name> 
+
+FILE PERMISSIONS
+chmod u|g|o[rwx|rwx|rwx] <filename>
+chmod 700 | rwx to user
+chmod 777 | rwx to all
+chmod +x <| exec
+
+GIT COMMANDS:
+git ls-files | list files in git (-c cached, -d deleted, -m modified, -o others)
+git remote add <nickname> <url> (push myrepo || origin)
+git remote -v | show remote repositories
+git remote rm <reponame> | remove git remote
+git reset --soft HEAD~1 | reset previous commit
+git checkout -- <filename> | to discard changes to file
+
+LLDPB:
+help di | lldb help
+lldb ./a.out | load program into lldb
+r <input_filename> | run
+br set -n main | set breakpoint to main
+br l | breakpoint list
+br del <br_number> | delete breakpoint(s)
