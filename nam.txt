@@ -1,5 +1,6 @@
 THE GOOD STUFF - NAM
 
+otool -tv <executable_name> (prints out machine code of the program)
 cat /dev/urandom | base64 | head -c 100 (first 100 randomised base64 chars) (./client 26455 "$(cat /dev/urandom | base64 | head -c 500)")
 ~/./<filename>
 <command> ~/<file/dir>
