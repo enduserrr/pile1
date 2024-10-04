@@ -1,5 +1,7 @@
 #!/bin/bash
 
-USER="asalo"
+USER="your_username"
 
-read -p "Are you sure you want to delete all files in /home/${USER}/.var/app/com.visualstudio.code/cache/? (y/n): " confirm
+read -p "confirm to delete the files in the folder: /home/${USER}/.var/app/com.visualstudio.code/cache/?
+
+(y/n): " confirm

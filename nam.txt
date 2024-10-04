@@ -1,5 +1,6 @@
 GIT & OTHER STUFF
 
+du -sh | show size of a file or a dir
 otool -tv <executable_name> (prints out machine code of the program)
 kill -l | list what's available
 ulimit -s | check stack size in kb
@@ -21,3 +22,4 @@ git remote add <nickname> <url>
 git remote -v | show remote repositories
 git remote rm <reponame> | remove git remote
 git clone --recurse-submodules <url> | add submodule repo to repository
+
