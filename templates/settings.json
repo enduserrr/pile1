@@ -1,0 +1,9 @@
+{
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.sideBar.location": "right",
+    "settingsSync.ignoredExtensions": [],
+    "chat.commandCenter.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Bearded Theme feat. Melle Julie"
+}
